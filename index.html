@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- ============= FAVICON ============== -->
+		<link rel="shortcut icon" href="" type="image/x-icon" />
+
+		<!-- =============REMIX ICON ============ -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet" />
+
+		<!-- ============= SWIPER CSS ================ -->
+		<link rel="stylesheet" href="" />
+
+		<!-- ============== CSS ====================== -->
+		<link rel="stylesheet" href="/assets/css/styles.css" />
+
+		<title>Responsive Burger Website</title>
+	</head>
+	<body>
+		<!-- ========== HEADER SECTION ============ -->
+		<header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <div>
+                        <img src="/assets/images/logo-burger.webp" alt="Burger logo" />
+                    </div>
+                    Patty Pixel
+                </a>
+                
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#recipe" class="nav__link">Recipe</a>
+                        </li>
+
+                        <li>
+                            <a href="#popular" class="nav__link">Popular</a>
+                        </li>
+
+                        <li>
+                            <a href="#delivery" class="nav__link">Delivery</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Close button -->
+                     <div class="nav__close" id="nav-close">
+                        <i class="ri-close-large-line"></i>
+                     </div>
+                </div>
+
+                <!-- Toggle button -->
+                 <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-2-fill"></i>
+                 </div>
+            </nav>
+        </header>
+
+		<!-- ========= MAIN ========== -->
+		<main class="main">
+			<!-- =========== HOME SECTION =============== -->
+			<section class="section home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Stacked and Served <br> Order the perfect bite!</h1>
+
+                        <p class="home__description">From grill to screen, your burger craving is just a tap away; customized bites, speedy service, and satisfaction guaranteed</p>
+
+                        <a href="#popular" class="button">Bite Now</a>
+
+                        <img src="/assets/images/sticker-potatoes.png" alt="potatoes sticker" class="home__sticker">
+                    </div>
+
+                    <div class="home__images">
+                        <img src="/assets/images/burger-home1.png" alt="classic burger" class="home__burger">
+                        <img src="/assets/images/burger-dish.png" alt="round wooden board" class="home__dish">
+
+                        <img src="/assets/images/home-potato.png" alt="single fry" class="home__ingredient home__potato-1">
+                        <img src="/assets/images/home-potato.png" alt="single fry" class="home__ingredient home__potato-2">
+                        <img src="/assets/images/home-tomato-1.png" alt="slice of tomato" class="home__ingredient home__tomato-1">
+                        <img src="/assets/images/home-tomato-1.png" alt="slice of tomato" class="home__ingredient home__tomato-2">
+                        <img src="/assets/images/home-lettuce.png" alt="lettuce" class="home__ingredient home__lettuce-1">
+                        <img src="/assets/images/home-lettuce.png" alt="lettuce" class="home__ingredient home__lettuce-2">
+                    </div>
+                </div>
+            </section>
+
+			<!-- =============== RECIPE SECTION ============== -->
+			<section class="section recipe" id="recipe">
+                <h2 class="section__title">Our Signature Blend of Flavor</h2>
+
+                <div class="recipe__container container grid">
+                    <div class="recipe__image">
+                        <img src="/assets/images/recipe-burger.png" alt="deconstructed burger" class="recipe__img">
+                    </div>
+
+                    <div class="recipe__data">
+                        <div class="recipe__card">
+                            <div class="recipe__box">
+                                <img src="/assets/images/recipe-bread.png" alt="burger bun">
+                            </div>
+
+                            <div>
+                                <h3 class="recipe__title">Tender Toppers</h3>
+                                <p class="recipe__description">From seed to slice, we bake our breads with care, bringing you natural flavors and nourishing ingredients.</p>
+                            </div>
+                        </div>
+
+                        <div class="recipe__card">
+                            <div class="recipe__box">
+                                <img src="/assets/images/recipe-cheese.png" alt="cheese slices">
+                            </div>
+
+                            <div>
+                                <h3 class="recipe__title">Curdle Bliss</h3>
+                                <p class="recipe__description">Made with quality ingredients and crafted to perfection, each slice and wedge offers a burst of flavor, enhancing every bite</p>
+                            </div>
+                        </div>
+
+                        <div class="recipe__card">
+                            <div class="recipe__box">
+                                <img src="/assets/images/recipe-meat.png" alt="Beef patties">
+                            </div>
+
+                            <div>
+                                <h3 class="recipe__title">Savory Stackers</h3>
+                                <p class="recipe__description">Crafted from premium cuts of beef and seasoned to perfection, our Savory Stackers are juicy, flavorful, and ready to elevate your burger experience to new heights</p>
+                            </div>
+                        </div>
+
+                        <div class="recipe__card">
+                            <div class="recipe__box">
+                                <img src="/assets/images/recipe-vegetable.png" alt="Fresh vegetables">
+                            </div>
+
+                            <div>
+                                <h3 class="recipe__title">Earthy Delights</h3>
+                                <p class="recipe__description">Each bite of our crisp vegetables offers a satisfying crunch, delivering a refreshing burst of flavor that elevates any dish</p>
+                            </div>
+                        </div>
+
+                        <div class="recipe__card">
+                            <div class="recipe__box">
+                                <img src="/assets/images/recipe-sauces.png" alt="Sauces">
+                            </div>
+
+                            <div>
+                                <h3 class="recipe__title">Tangy Temptation</h3>
+                                <p class="recipe__description">Experience a flavor revelation with this sauce that marries savory and earthy notes, elevating meats, vegetables, and everything in between to gourmet status</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+			<!-- ============= POPULAR ================ -->
+			<section class="section popular" id="popular">
+                <h2 class="section__title">Signature Stacked <br> Sensations</h2>
+                <div class="popular__container container grid">
+                    <article class="popular__card">
+                        <img src="/assets/images/popular-burger-chicken1.png" alt="chicken burger" class="popular__img">
+
+                        <h2 class="popular__title">Chicken <br> Burger</h2>
+                        <span class="popular__price">600/=</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="/assets/images/popular-burger-beef.png" alt="beef burger" class="popular__img">
+
+                        <h2 class="popular__title">Beef <br> Burger</h2>
+                        <span class="popular__price">1000/=</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="/assets/images/popular-burger-grill.png" alt="grilled burger" class="popular__img">
+
+                        <h2 class="popular__title">Grilled <br> Burger</h2>
+                        <span class="popular__price">1200/=</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="/assets/images/popular-burger-classic.png" alt="classic burger" class="popular__img">
+
+                        <h2 class="popular__title">Classic <br> Burger</h2>
+                        <span class="popular__price">900/=</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="/assets/images/popular-burger-big.png" alt="Big burger" class="popular__img">
+
+                        <h2 class="popular__title">Big  <br> Burger</h2>
+                        <span class="popular__price">1800/=</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+			<!-- ============ DELIVERY SECTION =============== -->
+			<section class="section delivery" id="delivery">
+                <div class="delivery__container container grid">
+                    <div class="delivery__data">
+                        <h2 class="section__title">Swift Eats, Right to Your Seat</h2>
+
+                        <p class="delivery__description">Craving a burger? We’re on it. Our delivery team brings you flavor-packed burgers hot off the grill, no matter where you are.</p>
+
+                        <a href="#contact" class="button">Contact Now</a>
+
+                        <img src="/assets/images/sticker-glass.png" alt="Takeaway cup" class="delivery__sticker">
+                    </div>
+
+                    <img src="/assets/images/delivery-burger.png" alt="Burger in takeaway box" class="delivery__img">
+                </div>
+            </section>
+
+			<!-- ============= CONTACT SECTION ================ -->
+			<section class="section contact" id="contact">
+                <div class="contact__container container grid">
+                    <h2 class="section__title">Contact Now</h2>
+
+                    <div class="contact__content grid">
+                        <div class="contact__data grid">
+                            <div>
+                                <h3 class="contact__title">Follow Us</h3>
+
+                                <div class="contact__social">
+                                    <a href="https://www.linkedin.com/in/deborah-ogutu-2b0282257/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+    
+                                    <a href="https://www.instagram.com/_d.ebbie/profilecard/?igsh=MWdiMXAxNmZjcm9zdg==" target="_blank"><i class="ri-instagram-fill"></i></a>
+    
+                                    <a href="https://www.tiktok.com/@pndbuff?_t=8r6edqU4blG&_r=1" target="_blank"><i class="ri-tiktok-fill"></i></a>
+                                </div> 
+                            </div>
+                            
+                            <div>
+                                <h3 class="contact__title">Call Us and Order</h3>
+    
+                                <address class="contact__info">
+                                    +254712345678 <br>
+                                    0112233445
+                                </address>
+                            </div>
+    
+                            <div>
+                                <h3 class="contact__title">Find Us Here</h3>
+    
+                                <address class="contact__info">
+                                    Nairobi - Kenya <br>
+                                    Westlands
+                                </address>
+                            </div>
+                        </div>
+
+                        <div class="contact__image">
+                            <img src="/assets/images/contact-man.png" alt="delivery man" class="contact__image">
+                        </div>
+                    </div>
+
+                    <img src="/assets/images/sticker-burger.svg" alt="" class="contact__sticker-1">
+                    <img src="/assets/images/sticker-soda.svg" alt="" class="contact__sticker-2">
+                </div>
+            </section>
+
+			<!-- =============== FOOTER =================== -->
+			<footer class="footer section">
+                <div class="footer__container container grid">
+                    <a href="#" class="footer__logo">Patty Pixel</a>
+
+                    <div class="footer__content grid">
+                        <a href="#" class="footer__link">Terms & Agreements</a>
+                        <a href="#" class="footer__link">Privacy Policy</a>
+
+                        <div class="footer__social">
+                            <a href="https://www.linkedin.com/in/deborah-ogutu-2b0282257/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+
+                            <a href="https://www.instagram.com/_d.ebbie/profilecard/?igsh=MWdiMXAxNmZjcm9zdg==" target="_blank"><i class="ri-instagram-fill"></i></a>
+
+                            <a href="https://www.tiktok.com/@pndbuff?_t=8r6edqU4blG&_r=1" target="_blank"><i class="ri-tiktok-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="footer__copy">
+                    &#169; All Rights Reserved By Patty Pixel
+                </span>
+            </footer>
+		</main>
+		<!-- ================ SCROLL UP ================ -->
+         <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+         </a>
+		<!-- ================ SCROLL REVEAL ============== -->
+		<script src="/assets/js/scrollreveal.min.js"></script>
+
+		<!-- ================ SWIPER JS ================== -->
+		<script src=""></script>
+
+		<!-- =============== MIXITUP JS ================== -->
+		<script src=""></script>
+
+		<!-- =============== MAIN JS ====================== -->
+		<script src="/assets/js/main.js"></script>
+	</body>
+</html>
